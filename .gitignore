@@ -19,6 +19,9 @@
 *.snm
 *.vrb
 
+# Generated slide template
+slides.tex
+
 # VS Code
 *.vscode
 
