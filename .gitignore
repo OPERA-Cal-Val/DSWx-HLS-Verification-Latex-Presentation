@@ -1,0 +1,38 @@
+# env files
+.env
+
+# OS Files
+.DS_Store
+.DS_Store?
+
+# Vim files
+*.sw[mnop]
+
+# .tex files
+*.aux
+*.synctex*
+*.out
+*.toc
+*.pdf
+*.nav
+*.log
+*.snm
+*.vrb
+
+# VS Code
+*.vscode
+
+# CSV files output
+*.csv
+
+# Rope Files
+.ropeproject/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter files
+*.ipynb_checkpoints
+
+# Presentation Directory
+presentation_images/
