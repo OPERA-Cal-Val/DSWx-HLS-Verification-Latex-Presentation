@@ -1,5 +1,6 @@
 %\documentclass[xcolor=dvipsnames, 8pt]{beamer}
 \documentclass[8pt]{beamer}
+
 \mode<presentation>
 {
   \usetheme{default}      % or try Darmstadt, Madrid, Warsaw, ...
@@ -7,7 +8,10 @@
   \usefonttheme{default}  % or try serif, structurebold, ...
   \setbeamertemplate{navigation symbols}{}
   \setbeamertemplate{caption}[numbered]
+  \setbeamerfont{frametitle}{size=\tiny}
 } 
+
+
 
 
 \usepackage{graphicx}
@@ -15,6 +19,7 @@
 \usepackage{hyperref}
 \hypersetup{colorlinks,linkcolor=,urlcolor=blue}
 \usepackage{caption, array}
+\usepackage[Export]{adjustbox}
 
 \usepackage{multirow}
 \usepackage{booktabs} 
@@ -35,7 +40,7 @@
 \begin{center}
 \textbf{DSWx Presentation}\\
 \vspace{.5cm}
-Charlie Marshak \\
+Alex Handwerger \& Charlie Marshak \\
 
 \today\\
 %\vspace{.2in}
@@ -45,7 +50,6 @@ Charlie Marshak \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
-\input{slides.tex}
+\input{slides}
 
 \end{document}
